@@ -11,7 +11,7 @@ An example is available in the following [Gist](https://dartpad.dartlang.org/c86
 * [Dart](https://www.dartlang.org/guides/language) - The programming language used
 
 ## Versioning
-[SemVer](http://semver.org/) is used for versioning. For the versions available, see the [tags on this repository](https://github.com/BaptisteHugot/project/tags).
+[SemVer](http://semver.org/) is used for versioning. For the versions available, see the [tags on this repository](https://github.com/BaptisteHugot/verificationRIOCode/releases/).
 
 ## Authors
 * **Baptiste Hugot** - *Initial work* - [BaptisteHugot](https://github.com/BaptisteHugot)
