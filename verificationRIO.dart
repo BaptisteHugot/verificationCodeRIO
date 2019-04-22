@@ -46,7 +46,7 @@ bool verificationFormatNumeroTelephone(String numeroTelephone) {
  */
 bool verificationFormatCodeRIORIO(String codeRIO, String typeNumeroTelephone) {
   if (typeNumeroTelephone == "mobile") {
-    RegExp exp = new RegExp("[0-9A-E]{1}{[0-9A-Z]}[E|P][A-Z0-9]{6}[A-Z0-9\+]");
+    RegExp exp = new RegExp("[0-9A-E][0-9A-Z][E|P][A-Z0-9]{6}[A-Z0-9\+]{3}");
     return exp.hasMatch(codeRIO);
   } else if (typeNumeroTelephone == "fixe") {
     RegExp exp = new RegExp("[F-Z][A-Z0-9]{8}[A-Z0-9\+]{3}");
