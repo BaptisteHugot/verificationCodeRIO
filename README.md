@@ -1,20 +1,17 @@
-# verificationRIOCode
-This application checks if the RIO code used for the portability of numbers in France matches a phone number given.
+# verificationCodeRIO
+Ce programme vérifie que le code RIO utilisé dans le cadre de la portabilité des numéros en France correspond au numéro de téléphone entré par l'utilisateur. Pour plus d'informations concernant la portabilité des numéros, vous pouvez vous référer au site de l'([Arcep](https://www.arcep.fr/)), le régulateur français.
 
-## Prerequisites
-This application is written in [Dart](https://www.dartlang.org/). Please install the developping tools to test locally this application or use [Dartpad](https://dartpad.dartlang.org/). For more information, you can go to Dart's official website.
+## Prérequis
+Ce programme est écrit via le langage [Dart](https://www.dartlang.org/). Veuillez installer les outils de développement nécessaires afin de tester celle-ci ou bien utiliser directement [Dartpad](https://dartpad.dartlang.org/). Pour plus d'informations, vous pouvez aller sur le site officiel du langage Dart. Ce programme est également compatible avec [Flutter](https://flutter.dev/).
 
-## Example
-An example is available in the following [Gist](https://dartpad.dartlang.org/c8691af67ba7a16fed68b9db2780403b).
+## Ecrit et compilé avec
+* [Dart](https://www.dartlang.org/guides/language) - Le langage de programmation utilisé
 
-## Built with
-* [Dart](https://www.dartlang.org/guides/language) - The programming language used
+## Versions
+[SemVer](http://semver.org/) est utilisé pour la gestion des versions. Pour connaître les versions disponibles, veuillez vous référer aux [étiquettes de ce dépôt](https://github.com/BaptisteHugot/verificationCodeRIO/releases/).
 
-## Versioning
-[SemVer](http://semver.org/) is used for versioning. For the versions available, see the [tags on this repository](https://github.com/BaptisteHugot/verificationRIOCode/releases/).
+## Auteurs
+* **Baptiste Hugot** - *Travail initial* - [BaptisteHugot](https://github.com/BaptisteHugot)
 
-## Authors
-* **Baptiste Hugot** - *Initial work* - [BaptisteHugot](https://github.com/BaptisteHugot)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+## Licence
+Ce projet est disponible sous licence MIT. Veuillez lire le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
