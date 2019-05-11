@@ -44,7 +44,7 @@ bool verificationFormatNumeroTelephone(String numeroTelephone) {
  * @param typeNumeroTelephone Le type de numéro de téléphone (fixe ou mobile)
  * @return vrai si le code RIO est dans le bon format, faux sinon
  */
-bool verificationFormatCodeRIORIO(String codeRIO, String typeNumeroTelephone) {
+bool verificationFormatCodeRIO(String codeRIO, String typeNumeroTelephone) {
   if (typeNumeroTelephone == "mobile") {
     RegExp exp = new RegExp("[0-9A-E][0-9A-Z][E|P][A-Z0-9]{6}[A-Z0-9\+]{3}");
     return exp.hasMatch(codeRIO);
