@@ -23,3 +23,7 @@ doc/api/
 
 # Local files
 .DS_Store
+.idea/modules.xml
+.idea/vcs.xml
+.idea/verificationCodeRIO.iml
+.idea/workspace.xml
