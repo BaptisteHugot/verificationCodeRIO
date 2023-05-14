@@ -37,7 +37,7 @@ bool verificationCleControle(String numeroTelephone, String codeRIO) {
  * @return vrai si le numéro de téléphone est dans le bon format, faux sinon
  */
 bool verificationFormatNumeroTelephone(String numeroTelephone) {
-  Pattern pattern = r"^(0[1-9][0-9]{8}|0[6-7][0-9]{13-14})";
+  Pattern pattern = r"^(0[1-9][0-9]{8}|0[7][0][0][0-9]{9-10}|0[9][0][1][0-9]{9-10})";
   RegExp exp = new RegExp(pattern.toString());
 
   return exp.hasMatch(numeroTelephone);
@@ -49,7 +49,7 @@ bool verificationFormatNumeroTelephone(String numeroTelephone) {
  * @return vrai si le code RIO est dans le bon format, faux sinon
  */
 bool verificationFormatCodeRIO(String codeRIO){
-  Pattern pattern = r"[0-9A-Z][E|P|F|G|B|M|N|R|S|T|U|V|W|X|Y|Z][A-Z0-9]{6}[A-Z0-9\+]{3}";
+  Pattern pattern = r"[0-9A-Z][A|E|F|G|M|N|P|R|S|T|U|V|W|X|Y|Z][A-Z0-9]{6}[A-Z0-9\+]{3}";
   RegExp exp = new RegExp(pattern.toString());
 
   return exp.hasMatch(codeRIO);
@@ -73,7 +73,7 @@ bool verificationFormatCodeRIOTelephone(String codeRIO, String typeNumeroTelepho
 
     return exp.hasMatch(codeRIO);
   } else if(typeNumeroTelephone == "SVA"){
-    Pattern pattern = r"[F-Z][A-Z0-9][G|B|M][A-Z0-9]{6}[A-Z0-9\+]{3}";
+    Pattern pattern = r"[F-Z][A-Z0-9][A][A-Z0-9]{6}[A-Z0-9\+]{3}";
     RegExp exp = new RegExp(pattern.toString());
 
     return exp.hasMatch(codeRIO);
